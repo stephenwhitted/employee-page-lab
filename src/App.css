@@ -1,0 +1,104 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.ContentWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 800px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 1em;
+  align-items: center;
+}
+
+.Header {
+  background-color: #007bff;
+  color: white;
+  padding: 1em;
+  text-align: center;
+  width: 100%;
+}
+
+.SearchBar {
+  padding: 1em;
+  background-color: #e9ecef;
+  text-align: center;
+  width: 100%;
+}
+
+.SearchBar input {
+  width: 80%;
+  padding: 0.5em;
+  font-size: 1em;
+}
+
+.EmployeeList {
+  overflow-y: auto;
+  padding: 1em;
+  background-color: #f1f1f1;
+  width: 100%;
+}
+
+.EmployeeListItem {
+  display: flex;
+  align-items: center;
+  padding: 1em;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+  background-color: white;
+  margin-bottom: 1em;
+  border-radius: 5px;
+  justify-content: center;
+}
+
+.EmployeeListItem:hover {
+  background-color: #e9ecef;
+}
+
+.EmployeeListItem strong {
+  display: block;
+  text-align: center;
+}
+
+.EmployeePage {
+  padding: 2em;
+  width: 100%;
+}
+
+.EmployeeDetails {
+  padding: 1em;
+  background-color: #e9ecef;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.EmployeeDetails h2 {
+  margin-top: 0;
+}
+
+.EmployeeDetails p {
+  margin: 0.5em 0;
+}
+
+.Button {
+  padding: 0.5em 1em;
+  margin-top: 1em;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Button:hover {
+  background-color: #0056b3;
+}
